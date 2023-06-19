@@ -4,6 +4,23 @@ body {
   margin: 0;
   background-color: #663357;
   color: #f5f6f7;
+  font-family: 'Encode Sans', sans-serif;
+}
+.heading 
+{
+  font-family: 'Bungee Shade', cursive;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 label {
