@@ -27,3 +27,29 @@ label {
   display: block;
   margin: 0.5rem 0;
 }
+
+fieldset 
+{
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 0 3px solid;
+  
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+input, textarea, select {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+input, textarea {
+  background-color: #f6f6f6;
+  border: 1px solid #f6f6f6;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+}
